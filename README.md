@@ -1,6 +1,13 @@
-## A Simple Example
+## PHP Mailer
 
 ```php
+include "SMTP.php";
+include "PHPMailer.php";
+include "Exception.php";
+
+use PHPMailer\PHPMailer\PHPMailer;
+
+
 $mail = new PHPMailer;
 $mail->IsSMTP();
 $mail->Host = 'smtp.gmail.com';
