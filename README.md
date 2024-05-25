@@ -13,7 +13,7 @@
             $mail->addReplyTo('your email', 'Reset Password');
             $mail->addAddress($email);
             $mail->isHTML(true);
-            $mail->Subject = 'Creating a new account in E shop is successful';
+            $mail->Subject = '';
 
             $bodyContent = "";
 
